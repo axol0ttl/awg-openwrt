@@ -17,16 +17,6 @@ jobs:
             target: ramips
             subtarget: mt7620
             vermagic: "5bc03255e08a37a54dbb31ad01735f42"
-          - tag: "23.05.99"
-            pkgarch: mipsel_24kc
-            target: ramips
-            subtarget: mt7621
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
-          - tag: "23.05.2"
-            pkgarch: mipsel_24kc
-            target: ramips
-            subtarget: mt7621
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
 
     steps:
       - uses: actions/checkout@v4
